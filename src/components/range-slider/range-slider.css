@@ -1,0 +1,5 @@
+range-slider {
+	display: inline-flex;
+	flex-direction: column;
+	margin: 5pt 0;
+}
