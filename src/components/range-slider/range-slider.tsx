@@ -54,9 +54,7 @@ export class RangeSlider implements ComponentInterface {
 				</div>
 				<div class="flex space-between">
 					<input id={this.name} ref={element => (this.rangeInput = element)} type="range" min={this.min} max={this.max} defaultValue={this.default.toString()} onInput={this.changeHandler.bind(this)}/>
-					<button onClick={() => this.reset()} class="align-end">
-						Reset
-					</button>
+					<button onClick={() => this.reset()} class="align-end">Reset</button>
 				</div>
 			</Host>
 		);

@@ -68,9 +68,7 @@ export class AppRoot {
 								<h3 class="highlighted">CSS:</h3>
 								<textarea ref={element => (this.outputTextarea = element)} class="txt-output" rows={4} readonly={true}></textarea>
 							</div>
-							<button class="btn-reset" onClick={this.resetAll}>
-								Reset Image
-							</button>
+							<button class="btn-reset" onClick={this.resetAll}>Reset Image</button>
 						</section>
 						<section class="right-column">{this.filterSliders}</section>
 					</article>
